@@ -23,7 +23,7 @@ switch (calcMode){
 case 0:
 {print ("Try other number");
 return;}
-perimeter = side*4;
+perimeter = side*4;>
 break;
 case 1:
 if (side <=0) print("Reject");

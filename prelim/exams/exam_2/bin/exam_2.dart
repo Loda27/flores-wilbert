@@ -20,7 +20,7 @@ import 'dart:convert';
 import 'dart:math';
 
 Future<void> main(List<String> arguments) async{
-  List<Map<String, dynamic >> = data{};
+  
   var trnId;
   var qrtryr;
   var gross;

@@ -11,15 +11,4 @@ void main() {
 
 List<int> numSort(List<int> number) {
   int num = number.length;
-    for (int i = 0; i < num - 1; i++) {
-    for (int j = 0; j < num - i - 1; j++) {
-      if (number[j] > number[j + 1]) {
-        int temp = number[j];
-        number[j] = number[j + 1];
-        number[j + 1] = temp;
-      }
-    }
-  }
-  return number;
-  
-}
+ 
